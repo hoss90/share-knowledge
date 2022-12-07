@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height:calc(100vh-25vh) ;
+    height:calc(100vh-20vh) ;
     margin-top: 20vh;
 }
 .topics{
@@ -244,7 +244,7 @@
         color: #94C65D;
     }
     .last{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
     }
     .best{
