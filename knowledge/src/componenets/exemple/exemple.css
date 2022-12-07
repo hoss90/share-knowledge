@@ -1,0 +1,20 @@
+.exemple{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.article{
+    display: inline-block;
+   margin-bottom: 5vh;
+   
+    
+}
+.writer{
+    display: inline;
+    margin-bottom: 30px;
+    font-size: 14px;
+    margin-left: 22vw;
+    color: #76BBC2;
+    margin-top: -5vh;
+}

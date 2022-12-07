@@ -1,0 +1,24 @@
+.lastArticle{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.loader{
+    margin: 20vh 45vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border:5px solid ;
+    border-left-color:#a6e6f2 ;
+    border-top-color:#94C65D ;
+    border-right-color:#a7f9ff ;
+    border-bottom-color:#94C65D ;
+    animation:loop 0.5s ease-in-out infinite;
+}
+@keyframes loop{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
